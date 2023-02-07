@@ -12,3 +12,15 @@ For this project I was using the following tools, technologies and equipment:
 - A laptop/PC to write the necessary Python code for the devices
 - Visual Studio Code- used for connecting to the RPi via SSH and writing the necessary Python code
 The BlynkApp.py file is the main file for running the application, while the BlynkTimer.py file is just a pre-made library function to be used for timeouts and timing intervals for the Sense HAT.
+# BlynkApp
+This is the main file for the application.
+More information on how to obtain the parts mentioned below can be found on this link: https://pypi.org/project/tuya-bulb-control/
+CLIENT_ID = ''
+SECRET_KEY = ''
+DEVICE_ID = ''
+REGION_KEY = 'eu'
+
+The rest of the code is pretty simple:
+- The Blynk,BlynkTimer, Sense HAT functions are initialized 
+- Virtual pins are being created for the buttons in the Blynk App
+- Functions are defined for changing the color of the smart bulb, or just simply turning it on and off.
