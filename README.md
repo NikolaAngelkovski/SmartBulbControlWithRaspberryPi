@@ -11,3 +11,4 @@ For this project I was using the following tools, technologies and equipment:
 - A smartphone to showcase the Blynk application and its use in the real world
 - A laptop/PC to write the necessary Python code for the devices
 - Visual Studio Code- used for connecting to the RPi via SSH and writing the necessary Python code
+The BlynkApp.py file is the main file for running the application, while the BlynkTimer.py file is just a pre-made library function to be used for timeouts and timing intervals for the Sense HAT.
